@@ -22,7 +22,7 @@ SOURCE C:/Users/USER/Downloads/Trabalho-Banco-de-dados-main/N2/sql/00_script_com
 Se for usar o MySQL local preparado neste projeto, primeiro inicie o servidor:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File C:\Users\USER\Downloads\Trabalho-Banco-de-dados-main\start_mysql_doceria.ps1
+powershell -ExecutionPolicy Bypass -File .\start_mysql_doceria.ps1
 ```
 
 Dados da conexão local:

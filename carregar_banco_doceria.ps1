@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 
 $projectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
-$sqlDir = Join-Path $projectRoot "Trabalho-Banco-de-dados-main"
+$sqlDir = $projectRoot
 $mysql = "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe"
 $port = 3309
 
